@@ -1,0 +1,98 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+
+    font-size: 1.6rem;   font-weight: 400;   font-family: 'Open Sans', sans-serif;
+
+    background: url(images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+   
+
+    height: 100vh;
+}
+
+/* LOGO */
+.primeiro .header-logo a img {
+    height: 7rem;
+    
+    margin: 6rem 8rem 8rem;
+}
+
+/* IMAGEM */
+.primeiro .imagem img {
+    height: 66rem;   width: 85rem;
+
+    margin: 0 8rem 0;
+}
+
+.segundo {
+    display: flex;   justify-content: center;   flex-direction: column;   align-items: center;  
+}
+
+.segundo .conteudo {
+    font-family: 'Poppins';    color: #fff;
+}
+
+.segundo .conteudo h1 {
+    width: 75rem;
+
+    font-size: 6rem;   font-weight: 600;   line-height: 8rem;
+}
+
+.segundo .conteudo p {
+    width: 77rem;
+
+    font-size: 2.5rem;
+
+    margin-block: 2rem;
+}
+
+.btn button{
+    font-size: 3rem;   color: hsl(257, 40%, 49%);
+
+    padding: 2rem 9rem;
+
+    border-radius: 50px;   border: none;
+
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.387);
+
+    cursor: pointer;
+
+    transition: 0.6s;
+}
+
+.btn button:hover {
+    color: #fff;
+    
+    background-color:  hsl(300, 69%, 71%);
+}
+
+.social {
+    display: inline-block;   position: relative;
+    
+    left: 28rem;   top: 25rem;
+}
+
+.social a {
+    font-size: 1.5rem;   color: white;
+
+    margin-left: 1.5rem;
+
+    padding: 1.3rem;
+
+    border-radius:50%;   border: 0.2rem solid #fff;
+
+    transition: 0.6s;
+
+    cursor: pointer;
+} 
+
+.social a:hover {
+    color:  hsl(300, 68%, 59%);
+
+    border: 0.2rem solid hsl(300, 68%, 59%);
+} 
